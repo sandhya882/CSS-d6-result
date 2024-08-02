@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template b&a</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .container{
+            border: 1px solid;
+            width: 1500px;
+            height: 400px;
+        
+        }
+        .nav{ border: 1px solid;
+            position:sticky;
+            width: 1500px;
+            height: 50px;
+            top: 0%;
+            text-align: center;
+            justify-content:end;
+            background-color: rgb(14, 13, 13);
+            color: azure;
+            padding:0px 0px;
+            left: 0px;
+            right: 0px;
+            
+        }
+        .a{
+            position:relative;
+            right:550px;
+            top: 10px;
+        }
+        .b{   
+            position: relative;
+            left:350px;
+            top: 10px;
+        }
+        .c{
+            position:relative;
+            left:400px;
+            top: 10px;
+        }
+        .d{position:relative;
+            left:450px;
+            top: 10px;
+         }
+         .abs{
+            position: absolute;
+            z-index:1;
+            left: 500px;
+            top: 500px;
+
+         }
+         .nav .b::after{
+            content: '📋';
+         }
+         .nav .d::before{
+            content: '📞';
+         }
+         .nav .a::before{
+            content: '☣️';
+         }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav"><b class="a">BR Architects</b>
+            <b class="b">projects</b>
+            <b class="c">about</b>
+           <b class="d">contact</b>
+        </div>
+        <img src="https://www.w3schools.com/w3images/architect.jpg" width="1500px">
+        <b class="abs" style="font-size:100px;">BR Architecture</b>
+        
+
+    </div>
+    
+</body>
+</html>
